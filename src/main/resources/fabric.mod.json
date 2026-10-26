@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "cannonlines",
+	"version": "${version}",
+	"name": "Cannon Lines",
+	"description": "Client-side overlay that shows the line a cannon (chest) will fire along, and the path of cannon rounds in flight.",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.cannonlines.CannonLinesClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
